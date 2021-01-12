@@ -1,0 +1,156 @@
+@media screen and (max-width: 414px){
+
+  
+
+    #menu_bar{
+        display: flex;
+        
+         }
+
+         #menu_bar i{
+            font-size: 30px;
+        }
+
+
+         header{
+             position: relative;
+             
+         }
+
+       
+
+        
+
+        
+
+        
+    
+        #menu ul{
+            flex-direction: column;
+            padding:  0px 10px;
+            background-color: #fcc502;            
+            justify-content: flex-start;
+            align-items: flex-start;
+            flex-wrap: nowrap;       
+            z-index: 5;
+            top: 100%;
+            left: -100%;
+            width: 50%;
+            height: 250px;           
+            
+            overflow: hidden;
+            transition: all .5s;
+            position: absolute;
+        
+        }
+
+        #menu ul li{
+            width: 100%;
+        }
+    
+    
+    
+        
+        #menu ul.abrirmenu{
+            left:0px;
+        }
+
+
+        
+    
+    
+        #menu ul li a{
+            text-align: center;    
+            display: block;
+    
+        }
+
+        #seccionUno{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #302e31;
+            
+          }
+          #seccionUno article{
+            
+            border-top: 1px #dde1dc solid;
+            
+        
+          }
+
+          #seccionTres{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 25px;
+            margin-top: 20px;
+        
+          }
+
+
+          
+#seccionCuatro div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #302e31;
+    padding: 20px;
+  
+  }
+  #seccionContacto{
+
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    
+    align-items: center;
+  
+  }
+
+  #seccionContacto figure{
+
+    max-width: 100%;
+  
+  }
+
+  #seccionContacto form{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items:  center;
+  }
+  
+  footer div{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 200px;
+    border-bottom: 1px #dde1dc solid;
+    border-right: 0px;
+    height: 150px;
+    
+  
+    
+  
+  }
+
+
+  
+
+}
